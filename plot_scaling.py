@@ -4,11 +4,11 @@ import constants
 
 
 hm_dict = mapping_general_utils.load_json_to_dict(
-    '/media/SSD2TB/fareed/wd/my_repos/cpu_cnn_layers/mapping_strategies/optimizers/timing/ref/hm_max_clusters_8.json')
+    './optimizers/timing/ref/hm_max_clusters_8.json')
 ga_dict = mapping_general_utils.load_json_to_dict(
-    '/media/SSD2TB/fareed/wd/my_repos/cpu_cnn_layers/mapping_strategies/optimizers/timing/ref/ga_population_400_generations_50.json')
+    './optimizers/timing/ref/ga_population_400_generations_50.json')
 sa_dict = mapping_general_utils.load_json_to_dict(
-    '/media/SSD2TB/fareed/wd/my_repos/cpu_cnn_layers/mapping_strategies/optimizers/timing/ref/sa_iterations_20.json')
+    './optimizers/timing/ref/sa_iterations_20.json')
 
 hm_dict = mapping_general_utils.swap_levels(hm_dict, 0, 1)
 ga_dict = mapping_general_utils.swap_levels(ga_dict, 0, 1)

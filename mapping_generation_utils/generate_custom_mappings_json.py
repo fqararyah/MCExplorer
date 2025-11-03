@@ -1,14 +1,14 @@
 import __init__
 import json
-import mapping_strategies.mapping_utils.mapping_general_utils as mapping_general_utils
-import mapping_strategies.mapping_utils.helper_heuristics as helper_heuristics
+import mapping_utils.mapping_general_utils as mapping_general_utils
+import mapping_utils.helper_heuristics as helper_heuristics
 import constants
-from mapping_strategies.mapping_types.seml_mapping_lbl import *
-from mapping_strategies.mapping_types.seml_mapping_fused import *
-from mapping_strategies.mapping_types.segment_grained_mapping_rr import *
-from mapping_strategies.mapping_types.segment_grained_mapping import *
-from mapping_strategies.mapping_types.hybrid_mapping import *
-from mapping_strategies.mapping_types.custom_mapping import *
+from mapping_types.seml_mapping_lbl import *
+from mapping_types.seml_mapping_fused import *
+from mapping_types.segment_grained_mapping_rr import *
+from mapping_types.segment_grained_mapping import *
+from mapping_types.hybrid_mapping import *
+from mapping_types.custom_mapping import *
 import os
 from code_gen import code_generation_constants as cgc
 import random

@@ -4,7 +4,7 @@ from generic_mapping import GenericMapping
 from simple_mapping import SimpleMapping
 from basic_mapping import *
 import utils
-from mapping_strategies.engines.engine import *
+from engines.engine import *
 import constants
 from preformance_record import Metrics
 from mapping_utils.logging import *

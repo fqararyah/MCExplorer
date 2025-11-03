@@ -1,14 +1,14 @@
 
 from mapping_types.generic_mapping import *
 from mapping_types.sesl_mapping import *
-from mapping_strategies.mapping_types.seml_mapping_lbl import *
-from mapping_strategies.mapping_types.seml_mapping_fused import *
-from mapping_strategies.mapping_types.segment_grained_mapping_rr import *
-from mapping_strategies.mapping_types.segment_grained_mapping import *
-from mapping_strategies.mapping_types.hybrid_mapping import *
-from mapping_strategies.mapping_types.hybrid_rr_mapping import *
-from mapping_strategies.mapping_types.custom_mapping import *
-from mapping_strategies.mapping_utils.custom_mapping_utils import *
+from mapping_types.seml_mapping_lbl import *
+from mapping_types.seml_mapping_fused import *
+from mapping_types.segment_grained_mapping_rr import *
+from mapping_types.segment_grained_mapping import *
+from mapping_types.hybrid_mapping import *
+from mapping_types.hybrid_rr_mapping import *
+from mapping_types.custom_mapping import *
+from mapping_utils.custom_mapping_utils import *
 import __init__
 import utils
 import constants

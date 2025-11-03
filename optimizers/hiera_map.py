@@ -1,11 +1,11 @@
 import __init__
-import mapping_strategies.mapping_utils.mapping_general_utils as mapping_general_utils
-from mapping_strategies.mapping_types.mapping_description import *
+import mapping_utils.mapping_general_utils as mapping_general_utils
+from mapping_types.mapping_description import *
 from mapping_utils import custom_mapping_utils
 import constants
 import random
 from mapping_utils import mapping_exec_utils
-import mapping_strategies.mapping_utils.helper_heuristics as helper_heuristics
+import mapping_utils.helper_heuristics as helper_heuristics
 import time
 import os
 from hw_config import *

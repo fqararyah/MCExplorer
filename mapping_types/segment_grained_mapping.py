@@ -2,14 +2,14 @@
 from .generic_mapping import GenericMapping
 import __init__
 import utils
-from mapping_strategies.engines.engine import *
+from engines.engine import *
 from .seml_mapping_lbl import *
 from .seml_mapping_fused import *
 from hw_config import *
 import copy
 import random
 from basic_mapping import *
-import mapping_strategies.mapping_utils.helper_heuristics as helper_heuristics
+import mapping_utils.helper_heuristics as helper_heuristics
 
 class SegmentMapping(BasicMapping):
     EXTRA_MEMORY_OVERHEADS_W = 0

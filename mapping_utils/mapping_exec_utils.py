@@ -1,7 +1,7 @@
 import __init__
-from mapping_strategies.mapping_types.hybrid_mapping import *
-from mapping_strategies.mapping_types.segment_grained_mapping import *
-from mapping_strategies.mapping_types.segment_grained_mapping_rr import *
+from mapping_types.hybrid_mapping import *
+from mapping_types.segment_grained_mapping import *
+from mapping_types.segment_grained_mapping_rr import *
 from preformance_record import *
 import constants as consts
 import mapping_utils.custom_mapping_utils as custom_mapping_utils

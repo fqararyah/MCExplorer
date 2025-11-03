@@ -6,7 +6,9 @@ TEST_SEEDS = True
 ENABLE_LOGGING = False
 LOGGING_PATH = '../logs'
 
-MODEL_ARCH_DIR = '/media/SSD2TB/fareed/wd/my_repos/DL_Benchmarking/tflite_scripts_imgnt_accuracy_and_weight_extraction/models_archs/models/'
+this_dir = os.path.dirname(__file__) 
+
+MODEL_ARCH_DIR = this_dir + '/models_archs/'
 CLEANED_RESULTS_DIR = '../cleaned_results'
 
 PAPER_EXPERIMENTS_V = 2

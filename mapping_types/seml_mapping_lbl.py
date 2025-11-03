@@ -2,7 +2,7 @@
 import __init__
 from generic_mapping import GenericMapping
 import utils
-from mapping_strategies.engines.engine import *
+from engines.engine import *
 from simple_mapping import SimpleMapping
 from basic_mapping import *
 from mapping_utils import helper_heuristics

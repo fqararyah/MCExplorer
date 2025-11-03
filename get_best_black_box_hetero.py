@@ -3,7 +3,7 @@ from mapping_types.segment_grained_mapping_rr import *
 from mapping_types.segment_grained_mapping import *
 from preformance_record import *
 import experiments_p2.experiments_utils as experiment_utils
-from mapping_strategies.mapping_types.mapping_description import *
+from mapping_types.mapping_description import *
 import mapping_utils.custom_mapping_utils as custom_mapping_utils
 import ast
 

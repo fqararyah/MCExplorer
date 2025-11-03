@@ -9,7 +9,7 @@ import experiments_p2.experiments as experiments_p2
 import experiments_p2.ploting_experiments as plot_exps
 from plot import plot_results
 from plot import plot_utils
-from mapping_strategies.mapping_types.mapping_description import *
+from mapping_types.mapping_description import *
 import optimizers.nsga as nsga2
 import multiprocessing
 

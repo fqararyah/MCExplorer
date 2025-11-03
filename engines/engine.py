@@ -3,7 +3,7 @@ import __init__
 import utils
 from enum import Enum
 import math
-import mapping_strategies.mapping_utils.mapping_general_utils as mapping_general_utils
+import mapping_utils.mapping_general_utils as mapping_general_utils
 from generic_engine import *
 
 

@@ -5,7 +5,7 @@ from preformance_record import *
 import experiments_p2.experiments as experiments_p2
 from plot import plot_results
 from plot import plot_utils
-from mapping_strategies.mapping_types.mapping_description import *
+from mapping_types.mapping_description import *
 import experiments_p2.experiments_utils as experiment_utils
 
 
