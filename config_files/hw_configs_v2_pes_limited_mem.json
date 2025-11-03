@@ -1,0 +1,32 @@
+[
+    {
+        "board_name": "512_limited_4",
+        "on_chip_memory": 4,
+        "num_pes": 512,
+        "bw": 10000
+    },
+    {
+        "board_name": "1024_limited_4",
+        "on_chip_memory": 4,
+        "num_pes": 1024,
+        "bw": 10000
+    },
+    {
+        "board_name": "2048_limited_4",
+        "on_chip_memory": 4,
+        "num_pes": 2048,
+        "bw": 10000
+    },
+    {
+        "board_name": "4096_limited_4",
+        "on_chip_memory": 4,
+        "num_pes": 4096,
+        "bw": 10000
+    },
+    {
+        "board_name": "8192_limited_4",
+        "on_chip_memory": 4,
+        "num_pes": 8192,
+        "bw": 10000
+    }
+]

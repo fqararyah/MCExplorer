@@ -1,0 +1,14 @@
+Total Power
+The total device power is calculated as follows:
+
+    Total devices power = Device Static + Design Static + Design Dynamic
+
+The power estimates are modeled to account for temperature and voltage sensitivity. Ambient temperature and regulated voltage on the system can be keyed into the appropriate cells provided for that purpose.
+Device Static Power
+
+Device static power is also referred to as Leakage. Device static represents the transistor leakage power when the device is powered and not configured.
+Design Static Power
+
+Design static represents additional power consumption for power gated blocks when the device is configured but there is no switching activity. There are certain resources that have zero static power contribution unless they are used in the design. When their utilization totals are entered in XPE, they contribute to the design static power. Block RAM, UltraRAM, GT, I/O, and clock managers are power gated and contribute to the design static power. On the other hand, there are certain resources that are always powered and do not contribute to the design static power because they are already included in the device static power. CLOCK, LOGIC, and DSP are always powered and do not contribute to the design static power.
+Tip: To add your design elements (for example, I/Os, block RAMs, UltraRAMs, GT, and Clock Managers) to the design static power calculations, you must enter the resource utilization and configuration in the XPE resource sheets applicable to the design. Any I/O termination should be set to match the board and the design. For any clock managers, enter a small clock frequency to indicate usage. Enter or leave clock frequency values 0 on other resource sheets.
+Note: Static power in the device should never exceed the total static power reported by XPE.

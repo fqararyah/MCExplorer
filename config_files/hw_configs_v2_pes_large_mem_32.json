@@ -1,0 +1,32 @@
+[
+    {
+        "board_name": "512_large_32",
+        "on_chip_memory": 32,
+        "num_pes": 512,
+        "bw": 19.2
+    },
+    {
+        "board_name": "1024_large_32",
+        "on_chip_memory": 32,
+        "num_pes": 1024,
+        "bw": 19.2
+    },
+    {
+        "board_name": "2048_large_32",
+        "on_chip_memory": 32,
+        "num_pes": 2048,
+        "bw": 19.2
+    },
+    {
+        "board_name": "4096_large_32",
+        "on_chip_memory": 32,
+        "num_pes": 4096,
+        "bw": 19.2
+    },
+    {
+        "board_name": "8192_large_32",
+        "on_chip_memory": 32,
+        "num_pes": 8192,
+        "bw": 19.2
+    }
+]

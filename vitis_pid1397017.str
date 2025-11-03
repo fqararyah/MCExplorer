@@ -1,0 +1,160 @@
+/*
+
+Xilinx Vitis v2021.2.0 (64-bit) [Major: 2021, Minor: 2]
+SW Build 3363750 on 2021-10-16-13:10:08
+
+Process ID (PID): 1397017
+License: Customer
+
+Current time: 	Mon Mar 03 15:00:27 CET 2025
+Time zone: 	Central European Standard Time (Europe/Stockholm)
+
+OS: Ubuntu
+OS Version: 5.15.0-131-generic
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: :1
+Screen size: 1920x1080
+Available screens: 2
+Available disk space: 100 GB
+
+Java version: 	11.0.11 64-bit
+Java home: 	/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9
+Java executable location: 	/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /tools/Xilinx/Vitis/2021.2/tps/lnx64/javafx-sdk-11.0.2/lib:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu/20:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/lib/:/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/lib//server:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu/20:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/tps/lnx64/python-3.8.3/lib:/tools/Xilinx/Vitis/2021.2/aietools/lib/lnx64.o:/media/SSD2TB/fareed/xilinx_licence_and_tmp/XRT/build/Debug/opt/xilinx/xrt/lib:/usr/local/cuda-11/lib64:/media/SSD2TB/fareed/downloads/TensorRT-8.4.3.1.Linux.x86_64-gnu.cuda-11.6.cudnn8.4/TensorRT-8.4.3.1/lib:/tools/Xilinx/Vitis/2021.2/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /tools/Xilinx/Vitis/2021.2/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /tools/Xilinx/Vitis
+
+User name: 	fareed
+User home directory: /home/fareed
+User working directory: /media/SSD2TB/fareed/wd/my_repos/cpu_cnn_layers/mapping_strategies
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2021.2
+RDI_DATADIR: /tools/Xilinx/Vitis/2021.2/data
+RDI_BINDIR: /tools/Xilinx/Vitis/2021.2/bin
+
+Vitis preferences directory: /home/fareed/.Xilinx/Vitis/2021.2/
+Vitis workspace directory: /media/SSD2TB/fareed/wd/vitis_ide_projects
+Vitis workspace log file location: /media/SSD2TB/fareed/wd/vitis_ide_projects/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+FINN_XILINX_PATH: /tools/Xilinx
+FINN_XILINX_VERSION: 2021.2
+SDKTARGETSYSROOT: /opt/petalinux/2021.2//sysroots/cortexa72-cortexa53-xilinx-linux
+XILINX_DSP: 
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2021.2
+XILINX_SDK: /tools/Xilinx/Vitis/2021.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2021.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2021.2
+XILINX_XRT: /media/SSD2TB/fareed/xilinx_licence_and_tmp/XRT/build/Debug/opt/xilinx/xrt
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+selectTreeTable("fibha_v1_kernels", "fibha_v1_system", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Close Others", "mob_v2_hard_pipe_fixed_seg.cpp", "WorkbenchWindow", "MenuItem.CLOSE_OTHERS");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+closeView("mob_v2_hard_pipe_fixed_seg.cpp", "fibha_v1_kernels/src/model_components/model/hard_pipes/impl/mob_v2_hard_pipe_fixed_seg.cpp", "CEditor", "CTabItem.MOB_V2_HARD_PIPE_FIXED_SEG_CPP");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("fiba_v2_kernels", "fiba_v2_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "SDXAssistantView", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("fiba_v2_system", "fiba_v2_system", "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectTreeTable("fibha_v1_kernels", "fibha_v1_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "SDXAssistantView", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("layers", "fibha_v1_system > fibha_v1_kernels > src > model_components", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTextEditor("mob_v2_hard_pipe_fixed_seg.cpp", "fibha_v1_kernels/src/model_components/model/hard_pi", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.MOB_V2_HARD_PIPE_FIXED_SEG_CPP");
+selectMenuItem("©", "mob_v2_hard_pipe_fixed_seg.cpp", "WorkbenchWindow", "MenuItem.©");
+setCombo("pw_and_conv_dwhf_fhw", "Search", "SearchDialog", "Combo.SEARCH_STRING_(*_=_ANY_STRING,_?_=_ANY_CHARACTER)");
+selectButton("Search", "Search", "SearchDialog", "Button.SEARCH");
+activateView("Search", "SearchView", "CTabItem.SEARCH");
+selectToolBarButton("Shows background operations in Progress view", "fibha_v1_kernels", "WorkbenchWindow", "ToolItem.SHOWS_BACKGROUND");
+activateView("Progress", "ProgressView", "CTabItem.PROGRESS");
+selectToolBarButton("Cancel Operation", "Progress", "ProgressView", "ToolItem.CANCEL_OPERATION");
+selectButton("Search", "Search", "SearchDialog", "Button.SEARCH");
+activateView("Search", "SearchView", "CTabItem.SEARCH");
+selectButton("Search", "Search", "SearchDialog", "Button.SEARCH");
+activateView("Search", "SearchView", "CTabItem.SEARCH");
+selectTreeTable("hard_pipes", "fibha_v1_system > fibha_v1_kernels > src > model_components > model", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("model", "fibha_v1_system > fibha_v1_kernels > src > model_components", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("pw_and_conv_fd_whdf.hpp", "fibha_v1_system > fibha_v1_kernels > src > model_components > layers > impl", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectMenuItem("©", "Console", "WorkbenchWindow", "MenuItem.©");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("pw_and_conv_dwhf_fhw.hpp", "fibha_v1_system > fibha_v1_kernels > src > model_components > layers > impl", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+selectTextEditor("pw_and_conv_dwhf_fhw.hpp", "fibha_v1_kernels/src/model_components/layers/impl/p", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.PW_AND_CONV_DWHF_FHW_HPP");
+selectMenuItem("©", "pw_and_conv_dwhf_fhw.hpp", "WorkbenchWindow", "MenuItem.©");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("fibha_v1_kernels", "fibha_v1_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "WorkbenchWindow", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectMenuItem("©", "Console", "WorkbenchWindow", "MenuItem.©");
+selectButton("Search", "Search", "SearchDialog", "Button.SEARCH");
+activateView("Search", "SearchView", "CTabItem.SEARCH");
+selectTable("Searching", "Search", "SearchView", "Table");
+selectTab("File Search", "Search", "SearchDialog", "CTabItem.FILE_SEARCH");
+setCombo("fill_layer_weight_groups_tile_off_chip_dwhf_fhw", "Search", "SearchDialog", "Combo.CONTAINING_TEXT");
+selectButton("Search", "Search", "SearchDialog", "Button.SEARCH");
+activateView("Search", "SearchView", "CTabItem.SEARCH");
+selectTable("Searching", "Search", "SearchView", "Table");
+selectTree("827 fill_layer_weight_groups_tile_off_chip_dwhf_fhw", "fibha_v1_kernels > src > model_components > layers > impl > pw_and_conv_dwhf_fhw.hpp", EventType.DOUBLE_CLICK, "Search", "SearchView", "Tree.FileSearchResult");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectMenuItem("Clear", "Console", "WorkbenchWindow", "MenuItem.CLEAR");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("fibha_v1_kernels", "fibha_v1_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("fibha_v1_kernels", "fibha_v1_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "WorkbenchWindow", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectMenuItem("Clear", "Console", "WorkbenchWindow", "MenuItem.CLEAR");
+selectToolBarButton("Restore", "fibha_v1_kernels", "WorkbenchWindow", "ToolItem.RESTORE");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("fibha_v1_kernels", "fibha_v1_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "WorkbenchWindow", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectMenuItem("Clear", "Console", "WorkbenchWindow", "MenuItem.CLEAR");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("fibha_v1_kernels", "fibha_v1_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "WorkbenchWindow", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectMenuItem("Clear", "Console", "WorkbenchWindow", "MenuItem.CLEAR");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("fibha_v1_kernels", "fibha_v1_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "WorkbenchWindow", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+setText("#include "../headers/layers_imp_common_includes.h", "Find/Replace", "FindReplaceDialog", "StyledText");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectMenuItem("Clear", "Console", "WorkbenchWindow", "MenuItem.CLEAR");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("fibha_v1_kernels", "fibha_v1_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "WorkbenchWindow", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectButton("Exit", "Confirm Exit", "MessageDialogWithToggle", "Button.EXIT");
+// Exiting Xilinx Vitis with a status code '0' at 3/3/25, 4:57:18 PM CET
+// Elapsed time: 01:56:51
+
