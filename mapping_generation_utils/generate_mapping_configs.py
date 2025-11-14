@@ -9,13 +9,13 @@ from mapping_types.hybrid_rr_mapping import *
 import __init__
 import mapping_utils.mapping_general_utils as mapping_general_utils
 from hw_config import *
-import experiments.experiments as exps exps
+import experiments.experiments as exps
 import os
 from preformance_record import *
 
 
 def generate_mapping_configs(board_names, model_names, min_engines, max_engines, mapping_labels, 
-                             configs_path = '../code_gen/mappings_configs'):
+                             configs_path = './code_gen/mappings_configs'):
 
     if not os.path.exists(configs_path):
         os.mkdir(configs_path)
@@ -172,12 +172,12 @@ def generate_mapping_configs(board_names, model_names, min_engines, max_engines,
                             'throughput::' + str(bests_engines[mapping_label][Metrics.THROUGHPUT]) + '\n')
 
 
-# model_names = ['resnet50', 'resnet152', 'mob_v2', 'dense121', 'xce_r']
-# min_engines = 2
-# max_engines = 11
-# board_names = mapping_utils.read_board_names()
-# mappings_to_generate_configs_of = [SegmentMappingRR.MAPPING_LABEL]
+model_names = ['resnet50', 'resnet152', 'mob_v2', 'dense121', 'xce_r']
+min_engines = 2
+max_engines = 11
+board_names = mapping_general_utils.read_board_names()
+mappings_to_generate_configs_of = [SegmentMapping.MAPPING_LABEL]
 
 
-# generate_mapping_configs(board_names, model_names, min_engines,
-#                          max_engines, mappings_to_generate_configs_of)
+generate_mapping_configs(board_names, model_names, min_engines,
+                         max_engines, mappings_to_generate_configs_of)
