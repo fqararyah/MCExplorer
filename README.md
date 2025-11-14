@@ -20,9 +20,7 @@ If you find this repository useful for your research, we would appreciate it if 
 ## Multiple-CE Accelerators
 We use the term **multiple Compute-Engine (multiple-CE)** accelerators to describe accelerators that organize FPGA resources into an adjustable number of dedicated Compute Engines (CEs). These multiple-CE accelerators adjust the number of CEs to optimize performance and/or efficiency metrics based on the structure of the CNN model and the available FPGA resources. Multiple-CE accelerators can be seen as compositions of basic building blocks like *single-CE*, *pipelined-CEs*, and *parallel-CEs* as shown in Figure 1.
 
-![Multiple-CE Accelerators](./paper_figures/general_multi_engine_mappings_detailed.drawio.png "DNN to Multiple-CE Accelerator mapping example")
-
-*Figure 1: DNN to a multiple-CE architecture mapping example. The example shows 4 segments that divide the figure vertically, and three sections that divide the figure horizontally. The sections show DNN layers, the types of CE-blocks used, and the mapping and execution flow of the layers on their CE-blocks. CEs and buffers vary in size and shape, proportional to their segment layers' needs..*
+![Multiple-CE Accelerators](./paper_figures/general_multi_engine_mappings_detailed.drawio.png "DNN to Multiple-CE Accelerator mapping example")*Figure 1: DNN to a multiple-CE architecture mapping example. The example shows 4 segments that divide the figure vertically, and three sections that divide the figure horizontally. The sections show DNN layers, the types of CE-blocks used, and the mapping and execution flow of the layers on their CE-blocks. CEs and buffers vary in size and shape, proportional to their segment layers' needs..*
 
 Exploring all possible designs for multiple-CE accelerators is impractical, so prior work has limited the design space in two main ways. First, they use fixed CE arrangements and only adjust the number of CEs based on the DNN and hardware budget. Second, they typically apply a single parallelism strategy and dataflow across all CEs, tuning only the degree of parallelism. For example, all CEs might be implemented as systolic arrays with the same strategy and dataflow, differing only in shape. Even when heterogeneous strategies are used, they are usually fixed rather than determined through exploration. These restrictions often lead to state-of-the-art accelerators being outperformed even by random design space exploration.
 
@@ -32,4 +30,4 @@ To address these limitations, we propose **MCExplorer**, a framework for **DSE**
 For example, the code uses the term *mapping* to refer to multiple-CE accelerators, since each accelerator design is essentially a mapping of a CNN onto hardware. Another example is that the **CE Config Optimizer** shown in Figure 2 is not implemented as a standalone module in the code; its implementation is spread across [`engine.py`](engines/engine.py), [mapping utils](mapping_utils/), and various [mapping types](mapping_types/).
 
 
-![MCExplorer overview](./paper_figures/mcexplorer_flow.drawio.png "MCExplorer conceptual overview.")
+![MCExplorer overview](./paper_figures/mcexplorer_flow.drawio.png "MCExplorer conceptual overview.")*Figure 2: MCExplorer conceptual overview
